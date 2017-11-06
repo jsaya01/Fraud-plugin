@@ -1,0 +1,15 @@
+.primary-nav{
+	padding:$baseline 0;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+}
+
+.primary-nav .navbar-brand{
+	font-weight:700;
+	font-size:26px;
+	color:$text-color;
+	&:hover{
+		color:$text-color;
+	}
+}
+

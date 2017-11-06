@@ -1,0 +1,70 @@
+// color vars
+
+$primary-color: #00AEEF;
+$secondary-color: #39B54A;
+$tertiary-color: #2f7bbd;
+
+// grays
+$light-gray-color: #B4BBC6;
+$gray-color: #71787E;
+$black-color: #262626;
+
+
+// alerts
+$green-color: $secondary-color;
+$yellow-color: #ffd266;
+
+$success-color: $green-color;
+$warning-color: $yellow-color;
+
+//text
+$text-color: #637081;
+$header-text-color: $text-color;
+$light-text-color: $gray-color;
+$extra-light-text-color: $light-gray-color;
+$body-text-color: $text-color;
+$dark-text-color: #354052;
+
+
+//borders
+$border-color: #E5E9EC;
+
+
+//links
+$link-color: $primary-color;
+$link-hover-color:shade($primary-color, 40%);
+
+$background-color: #EEF4F8;
+
+// units
+
+$baseline: 28px;
+$base-border-radius:3px;
+
+
+// font vars
+
+$regular-font-name: "lato", "Helvetica", serif;
+$bold-font-name: "lato", "Helvetica", serif;
+$medium-font-name: "lato", "Helvetica", serif;
+$headline-font-name:$regular-font-name;
+$social-font-name:"socialicoregular", "Helvetica", serif;
+$social-font-name-two:"socialico_plusregular", "Helvetica", serif;
+
+
+//transitions
+
+$base-transition-duration:.2s;
+
+//text columns
+
+$text-column-gutter-width: $baseline;
+
+// shadows
+
+$shadow-depth-one: 0 3px 6px 0 rgba(0,0,0,0.06);;
+
+$shadow-depth-two: 0 12px 24px 0 rgba(113,202,255,0.06), 0 12px 24px 0 rgba(0,0,0,0.11);
+$shadow-depth-two-hover: 0 12px 24px 0 rgba(113,202,255,0.06), 0 17px 29px 0 rgba(0,0,0,0.11);
+
+$shadow-depth-two-light: 0 12px 24px 0 rgba(113,202,255,0.01), 0 12px 24px 0 rgba(0,0,0,0.03);

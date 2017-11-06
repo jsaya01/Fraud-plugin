@@ -1,0 +1,43 @@
+;;;
+"title": "Home"
+;;;
+
+
+
+%section
+	.container
+		.row
+			.col-md-3
+				%h4.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Settings
+				%p
+					Fraud alert and export settings
+			.col-md-9
+				.panel
+					.panel-body
+						%h4.margin-bottom.bold-font-name.no-margin-top.dark-text-color
+							Enable Fraud Alert Cancelations
+						.media
+							.media-left
+								.media-object
+									.padding-right
+										%input#activate-toggle{ "data-toggle" => "toggle", :type => "checkbox", "data-style"=>"ios", "data-on"=>"<i class='fa fa-check'></i> ", "data-off"=>"<i class='fa fa-times'></i> ", "data-size"=>"large", "data-onstyle"=>"success"}
+							.media-body
+								#console-event
+%section
+	.container
+		.row
+			.col-md-3
+				%h4.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Support
+				%p
+					We're here to help
+			.col-md-9
+				.panel
+					.panel-body
+						%h4.bold-font-name.quarter-margin-bottom.dark-text-color
+							Need help or assistance?
+						%p
+							Please email us at 
+							%a{:href=>"mailto:info@tenxecom.com"}
+								info@tenxecom.com

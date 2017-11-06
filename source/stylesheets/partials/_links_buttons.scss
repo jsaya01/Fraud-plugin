@@ -1,0 +1,7 @@
+a{
+	color:$link-color;
+	&:hover{
+		color:shade($link-color,20%);
+		text-decoration: none;
+	}
+}
